@@ -186,7 +186,7 @@ Entry Wire Line
 Entry Wire Line
 	5250 6950 5350 7050
 Text HLabel 5350 5350 2    50   Output ~ 0
-A[0..18]
+A[0..15]
 Text HLabel 5350 6650 2    50   3State ~ 0
 D[0..7]
 Text HLabel 2500 4550 0    50   Output ~ 0
@@ -312,7 +312,7 @@ Entry Wire Line
 Entry Wire Line
 	2700 2500 2600 2600
 Text HLabel 2600 1750 0    50   Input ~ 0
-A[0..18]
+A[0..15]
 Entry Wire Line
 	10750 800  10850 900 
 Entry Wire Line
@@ -502,7 +502,7 @@ ROM_~CE
 Text HLabel 8600 3100 0    50   Input ~ 0
 ~RD
 Text HLabel 8350 1700 0    50   Input ~ 0
-A[0..18]
+A[0..15]
 Entry Wire Line
 	8450 2100 8350 2200
 Entry Wire Line

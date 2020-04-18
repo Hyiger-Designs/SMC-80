@@ -552,13 +552,13 @@ Text Label 9250 2150 0    50   ~ 0
 A6
 Text Label 9250 2050 0    50   ~ 0
 A7
-Text Label 6350 4150 0    50   ~ 0
+Text Label 6300 1350 0    50   ~ 0
 SW0
-Text Label 6350 4250 0    50   ~ 0
+Text Label 6300 1250 0    50   ~ 0
 SW1
-Text Label 6350 1250 0    50   ~ 0
+Text Label 6350 4250 0    50   ~ 0
 SW2
-Text Label 6350 1350 0    50   ~ 0
+Text Label 6350 4150 0    50   ~ 0
 SW3
 Text Label 6300 3350 0    50   ~ 0
 PMOD1
