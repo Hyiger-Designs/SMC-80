@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name THS-80)(type Legacy)(uri ${KIPRJMOD}/THS-80.lib)(options "")(descr ""))
-  (lib (name THS-80-rescue)(type Legacy)(uri ${KIPRJMOD}/THS-80-rescue.lib)(options "")(descr ""))
+  (lib (name SMC-80)(type Legacy)(uri ${KIPRJMOD}/SMC-80.lib)(options "")(descr ""))
+  (lib (name SMC-80-rescue)(type Legacy)(uri ${KIPRJMOD}/SMC-80-rescue.lib)(options "")(descr ""))
   (lib (name max_breakout-rescue)(type Legacy)(uri /Users/rlewis/gitrepo/max_breakout/max_breakout-rescue.lib)(options "")(descr ""))
 )

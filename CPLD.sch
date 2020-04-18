@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title "THS-80"
+Title "SMC-80"
 Date "2019-08-15"
 Rev "1.0"
 Comp "Hyiger Designs"
@@ -126,7 +126,7 @@ TMS
 Text Label 4500 5400 2    50   ~ 0
 TCK
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DC12F86
 P 5400 6150
 AR Path="/5DC12F86" Ref="D?"  Part="1" 
@@ -180,7 +180,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 1950 5050 1950
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBBC2
 P 5200 2050
 AR Path="/5DDEBBC2" Ref="D?"  Part="1" 
@@ -193,7 +193,7 @@ F 3 "~" H 5200 2050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB56
 P 5200 1550
 AR Path="/5DDEBB56" Ref="D?"  Part="1" 
@@ -206,7 +206,7 @@ F 3 "~" H 5200 1550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB50
 P 5200 1750
 AR Path="/5DDEBB50" Ref="D?"  Part="1" 
@@ -219,7 +219,7 @@ F 3 "~" H 5200 1750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB4A
 P 5200 1650
 AR Path="/5DDEBB4A" Ref="D?"  Part="1" 
@@ -232,7 +232,7 @@ F 3 "~" H 5200 1650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB44
 P 5200 1950
 AR Path="/5DDEBB44" Ref="D?"  Part="1" 
@@ -245,7 +245,7 @@ F 3 "~" H 5200 1950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB3E
 P 5200 1850
 AR Path="/5DDEBB3E" Ref="D?"  Part="1" 
@@ -258,7 +258,7 @@ F 3 "~" H 5200 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB22
 P 5200 2150
 AR Path="/5DDEBB22" Ref="D?"  Part="1" 
@@ -271,7 +271,7 @@ F 3 "~" H 5200 2150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5DDEBB1C
 P 5200 1450
 AR Path="/5DDEBB1C" Ref="D?"  Part="1" 
@@ -828,7 +828,7 @@ Wire Wire Line
 	7900 950  8000 950 
 Connection ~ 8000 950 
 $Comp
-L THS-80:EPM7064STC100 U?
+L SMC-80:EPM7064STC100 U?
 U 1 1 5D91E95F
 P 7850 3200
 AR Path="/5D91E95F" Ref="U?"  Part="1" 
@@ -845,7 +845,7 @@ Text HLabel 9550 3750 2    50   Output ~ 0
 Wire Wire Line
 	8950 3750 9550 3750
 $Comp
-L THS-80:Altera-JTAG-10 J?
+L SMC-80:Altera-JTAG-10 J?
 U 1 1 5DC12FA5
 P 3300 5500
 AR Path="/5D0F9837/5DC12FA5" Ref="J?"  Part="1" 

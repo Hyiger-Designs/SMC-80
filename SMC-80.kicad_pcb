@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title THS-80)
+    (title SMC-80)
     (date 2019-08-13)
     (rev 1.0)
     (company "Hyiger Designs")
@@ -7205,7 +7205,7 @@
   (gr_text "IDE Busy" (at 175.26 35.052) (layer F.SilkS)
     (effects (font (size 0.8128 0.8128) (thickness 0.1524)))
   )
-  (gr_text "THS-80 Model I" (at 161.544 98.552) (layer F.SilkS) (tstamp 5D5EB285)
+  (gr_text "SMC-80 Model I" (at 161.544 98.552) (layer F.SilkS) (tstamp 5D5EB285)
     (effects (font (size 1.8288 1.8288) (thickness 0.4064)))
   )
   (gr_text GND (at 184.912 128.016) (layer F.SilkS) (tstamp 5D9F783D)

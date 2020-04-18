@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:THS-80-cache
+LIBS:SMC-80-cache
 LIBS:de10-lite-ram-rom-cache
 EELAYER 30 0
 EELAYER END
@@ -1072,7 +1072,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 4592 6396 50  0
 	-1   0    0    -1  
 $EndComp
 $Comp
-L de10-lite-ram-rom-rescue:GND-power-sbc_z80-rescue-THS-80-rescue #PWR?
+L de10-lite-ram-rom-rescue:GND-power-sbc_z80-rescue-SMC-80-rescue #PWR?
 U 1 1 5D84C610
 P 4500 6425
 AR Path="/5D84C610" Ref="#PWR?"  Part="1" 

@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title "THS-80"
+Title "SMC-80"
 Date "2019-08-15"
 Rev "1.0"
 Comp "Hyiger Designs"
@@ -319,7 +319,7 @@ F 3 "" H 2450 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80:Z84C4310AEG U7
+L SMC-80:Z84C4310AEG U7
 U 1 1 5DAA1781
 P 2450 2100
 F 0 "U7" H 2050 3350 50  0000 C CNN
@@ -334,7 +334,7 @@ F 7 "Z84C4310AEG" H -200 2800 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80:Z84C2010AEG U6
+L SMC-80:Z84C2010AEG U6
 U 1 1 5E20570F
 P 2350 5750
 F 0 "U6" H 1900 7050 50  0000 C CNN
@@ -528,7 +528,7 @@ F 3 "" H 2350 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80:Z84C3010AEG U8
+L SMC-80:Z84C3010AEG U8
 U 1 1 5E4FBAAF
 P 8450 2050
 F 0 "U8" H 8000 3200 50  0000 C CNN
@@ -1006,7 +1006,7 @@ F 9 "https://www.mouser.com/ProductDetail/963-JMK107B7474KA-T" H 10792 5396 50  
 	-1   0    0    -1  
 $EndComp
 $Comp
-L THS-80-rescue:GND-power-sbc_z80-rescue-THS-80-rescue-de10-lite-ram-rom-rescue #PWR?
+L SMC-80-rescue:GND-power-sbc_z80-rescue-SMC-80-rescue-de10-lite-ram-rom-rescue #PWR?
 U 1 1 5DAC563D
 P 10700 5425
 AR Path="/5DAC563D" Ref="#PWR?"  Part="1" 
@@ -1135,7 +1135,7 @@ CLK_B
 Text Label 3300 2550 0    50   ~ 0
 CLK_B
 $Comp
-L THS-80-rescue:R_Small-Device-sbc_z80-rescue R?
+L SMC-80-rescue:R_Small-Device-sbc_z80-rescue R?
 U 1 1 5DBFA8AC
 P 4675 2525
 AR Path="/5DBFA8AC" Ref="R?"  Part="1" 
@@ -1148,7 +1148,7 @@ F 3 "~" H 4675 2525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80-rescue:GND-power-sbc_z80-rescue #PWR?
+L SMC-80-rescue:GND-power-sbc_z80-rescue #PWR?
 U 1 1 5DBFA8B2
 P 5000 2750
 AR Path="/5DBFA8B2" Ref="#PWR?"  Part="1" 
@@ -1182,7 +1182,7 @@ F 3 "" H 4850 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80-rescue:R_Small-Device-sbc_z80-rescue R?
+L SMC-80-rescue:R_Small-Device-sbc_z80-rescue R?
 U 1 1 5DBFA8C2
 P 4850 3450
 AR Path="/5DBFA8C2" Ref="R?"  Part="1" 
@@ -1403,7 +1403,7 @@ F 3 "~" H 4400 1550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L THS-80-rescue:R_Small-Device-sbc_z80-rescue R?
+L SMC-80-rescue:R_Small-Device-sbc_z80-rescue R?
 U 1 1 5E05EC3F
 P 4675 925
 AR Path="/5E05EC3F" Ref="R?"  Part="1" 
@@ -1488,7 +1488,7 @@ F 3 "~" H 5200 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80-rescue:R_Small-Device-sbc_z80-rescue R?
+L SMC-80-rescue:R_Small-Device-sbc_z80-rescue R?
 U 1 1 5E05EC55
 P 4850 1850
 AR Path="/5E05EC55" Ref="R?"  Part="1" 
@@ -1518,7 +1518,7 @@ F 3 "" H 4850 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L THS-80-rescue:GND-power-sbc_z80-rescue #PWR?
+L SMC-80-rescue:GND-power-sbc_z80-rescue #PWR?
 U 1 1 5E05EC45
 P 5000 1150
 AR Path="/5E05EC45" Ref="#PWR?"  Part="1" 

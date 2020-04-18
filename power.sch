@@ -245,7 +245,7 @@ Connection ~ 2450 1600
 Wire Wire Line
 	2450 1600 3000 1600
 $Comp
-L THS-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
+L SMC-80-rescue:LED-Device-max_breakout-rescue-sbc_z80-rescue D?
 U 1 1 5F826A18
 P 6200 1650
 AR Path="/5F826A18" Ref="D?"  Part="1" 

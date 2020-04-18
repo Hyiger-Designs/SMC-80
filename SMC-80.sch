@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "THS-80"
-Date "2019-08-15"
+Title "SMC-80"
+Date "2020-04-18"
 Rev "1.0"
 Comp "Hyiger Designs"
 Comment1 ""
@@ -838,7 +838,7 @@ Wire Wire Line
 Connection ~ 5600 5200
 Connection ~ 5000 5600
 $Comp
-L THS-80:DS1813R-5+T&R U1
+L SMC-80:DS1813R-5+T&R U1
 U 1 1 5E47A0E9
 P 5100 5200
 AR Path="/5E47A0E9" Ref="U1"  Part="1" 

@@ -889,11 +889,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# THS-80-rescue_AS6C4008A-55ZIN-Memory_RAM
+# SMC-80-rescue_AS6C4008A-55ZIN-Memory_RAM
 #
-DEF THS-80-rescue_AS6C4008A-55ZIN-Memory_RAM U 0 20 Y Y 1 F N
+DEF SMC-80-rescue_AS6C4008A-55ZIN-Memory_RAM U 0 20 Y Y 1 F N
 F0 "U" -400 1025 50 H V L BNN
-F1 "THS-80-rescue_AS6C4008A-55ZIN-Memory_RAM" 100 1025 50 H V L BNN
+F1 "SMC-80-rescue_AS6C4008A-55ZIN-Memory_RAM" 100 1025 50 H V L BNN
 F2 "Package_SO:TSOP-II-32_21.0x10.2mm_P1.27mm" 0 100 50 H I C CNN
 F3 "" 0 100 50 H I C CNN
 $FPLIST
@@ -936,11 +936,11 @@ X A3 9 -500 600 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# THS-80-rescue_GND-power-sbc_z80-rescue
+# SMC-80-rescue_GND-power-sbc_z80-rescue
 #
-DEF THS-80-rescue_GND-power-sbc_z80-rescue #PWR 0 0 Y Y 1 F P
+DEF SMC-80-rescue_GND-power-sbc_z80-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "THS-80-rescue_GND-power-sbc_z80-rescue" 0 -150 50 H V C CNN
+F1 "SMC-80-rescue_GND-power-sbc_z80-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -949,11 +949,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# THS-80-rescue_GND-power-sbc_z80-rescue-THS-80-rescue-de10-lite-ram-rom-rescue
+# SMC-80-rescue_GND-power-sbc_z80-rescue-SMC-80-rescue-de10-lite-ram-rom-rescue
 #
-DEF THS-80-rescue_GND-power-sbc_z80-rescue-THS-80-rescue-de10-lite-ram-rom-rescue #PWR 0 0 Y Y 1 F P
+DEF SMC-80-rescue_GND-power-sbc_z80-rescue-SMC-80-rescue-de10-lite-ram-rom-rescue #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "THS-80-rescue_GND-power-sbc_z80-rescue-THS-80-rescue-de10-lite-ram-rom-rescue" 0 -150 50 H V C CNN
+F1 "SMC-80-rescue_GND-power-sbc_z80-rescue-SMC-80-rescue-de10-lite-ram-rom-rescue" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -962,11 +962,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# THS-80-rescue_LED-Device-max_breakout-rescue-sbc_z80-rescue
+# SMC-80-rescue_LED-Device-max_breakout-rescue-sbc_z80-rescue
 #
-DEF THS-80-rescue_LED-Device-max_breakout-rescue-sbc_z80-rescue D 0 40 N N 1 F N
+DEF SMC-80-rescue_LED-Device-max_breakout-rescue-sbc_z80-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "THS-80-rescue_LED-Device-max_breakout-rescue-sbc_z80-rescue" 0 -100 50 H V C CNN
+F1 "SMC-80-rescue_LED-Device-max_breakout-rescue-sbc_z80-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -985,11 +985,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# THS-80-rescue_R_Small-Device-sbc_z80-rescue
+# SMC-80-rescue_R_Small-Device-sbc_z80-rescue
 #
-DEF THS-80-rescue_R_Small-Device-sbc_z80-rescue R 0 10 N N 1 F N
+DEF SMC-80-rescue_R_Small-Device-sbc_z80-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "THS-80-rescue_R_Small-Device-sbc_z80-rescue" 30 -40 50 H V L CNN
+F1 "SMC-80-rescue_R_Small-Device-sbc_z80-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -1002,11 +1002,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# THS-80_Altera-JTAG-10
+# SMC-80_Altera-JTAG-10
 #
-DEF THS-80_Altera-JTAG-10 J 0 40 Y Y 1 F N
+DEF SMC-80_Altera-JTAG-10 J 0 40 Y Y 1 F N
 F0 "J" 175 500 50 H V L CNN
-F1 "THS-80_Altera-JTAG-10" 100 -500 50 H V L CNN
+F1 "SMC-80_Altera-JTAG-10" 100 -500 50 H V L CNN
 F2 "" -150 150 50 V I C CNN
 F3 "" -1275 -550 50 H I C CNN
 $FPLIST
@@ -1037,11 +1037,11 @@ X TDI 9 500 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# THS-80_DS1813R-5+T&R
+# SMC-80_DS1813R-5+T&R
 #
-DEF THS-80_DS1813R-5+T&R U 0 40 Y Y 1 F N
+DEF SMC-80_DS1813R-5+T&R U 0 40 Y Y 1 F N
 F0 "U" 0 350 50 H V L CNN
-F1 "THS-80_DS1813R-5+T&R" -50 -350 50 H V L CNN
+F1 "SMC-80_DS1813R-5+T&R" -50 -350 50 H V L CNN
 F2 "Package_TO_SOT_SMD:SOT-23" -400 150 50 H I C CNN
 F3 "" -300 250 50 H I C CNN
 $FPLIST
@@ -1056,11 +1056,11 @@ X GND 3 -100 -400 100 U 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# THS-80_EPM7064STC100
+# SMC-80_EPM7064STC100
 #
-DEF THS-80_EPM7064STC100 U 0 40 Y Y 1 F N
+DEF SMC-80_EPM7064STC100 U 0 40 Y Y 1 F N
 F0 "U" -950 2200 50 H V C CNN
-F1 "THS-80_EPM7064STC100" 0 0 50 H V C CNN
+F1 "SMC-80_EPM7064STC100" 0 0 50 H V C CNN
 F2 "Package_QFP:TQFP-100_14x14mm_P0.5mm" -2300 -200 50 H I C CNN
 F3 "" -450 -2300 50 V I C CNN
 DRAW
@@ -1168,11 +1168,11 @@ X A10 99 -1100 1150 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# THS-80_Z84C0010AEG
+# SMC-80_Z84C0010AEG
 #
-DEF THS-80_Z84C0010AEG U 0 50 Y Y 1 F N
+DEF SMC-80_Z84C0010AEG U 0 50 Y Y 1 F N
 F0 "U" -600 1400 50 H V L CNN
-F1 "THS-80_Z84C0010AEG" -250 0 50 H V L CNN
+F1 "SMC-80_Z84C0010AEG" -250 0 50 H V L CNN
 F2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" -2950 1000 50 H I L CNN
 F3 "" 640 1200 50 H I L CNN
 F4 "Microprocessors - MPU 10 MHZ Z80 CMOS CPU" -2950 1150 50 H I L CNN "Description"
@@ -1228,11 +1228,11 @@ X D0 9 800 -500 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# THS-80_Z84C2010AEG
+# SMC-80_Z84C2010AEG
 #
-DEF THS-80_Z84C2010AEG U 0 50 Y Y 1 F N
+DEF SMC-80_Z84C2010AEG U 0 50 Y Y 1 F N
 F0 "U" -500 1250 50 H V L CNN
-F1 "THS-80_Z84C2010AEG" -250 -50 50 H V L CNN
+F1 "SMC-80_Z84C2010AEG" -250 -50 50 H V L CNN
 F2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" 450 1400 50 H I L CNN
 F3 "" 900 200 50 H I L CNN
 F4 "Microprocessors - MPU 10MHz Z80 CMOS PIO XTEMP" 600 1300 50 H I L CNN "Description"
@@ -1288,11 +1288,11 @@ X D6 9 -700 450 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# THS-80_Z84C3010AEG
+# SMC-80_Z84C3010AEG
 #
-DEF THS-80_Z84C3010AEG U 0 30 Y Y 1 F N
+DEF SMC-80_Z84C3010AEG U 0 30 Y Y 1 F N
 F0 "U" 100 1250 50 H V L CNN
-F1 "THS-80_Z84C3010AEG" 100 1150 50 H V L CNN
+F1 "SMC-80_Z84C3010AEG" 100 1150 50 H V L CNN
 F2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" -3050 950 50 H I L CNN
 F3 "" -4250 200 50 H I L CNN
 F4 "Timers & Support Products 10 MHZ Z80 CMOS CTC" -3050 650 50 H I L CNN "Description"
@@ -1349,11 +1349,11 @@ X D5 9 -700 450 200 R 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# THS-80_Z84C4310AEG
+# SMC-80_Z84C4310AEG
 #
-DEF THS-80_Z84C4310AEG U 0 30 Y Y 1 F N
+DEF SMC-80_Z84C4310AEG U 0 30 Y Y 1 F N
 F0 "U" -450 1200 50 H V L CNN
-F1 "THS-80_Z84C4310AEG" -250 -100 50 H V L CNN
+F1 "SMC-80_Z84C4310AEG" -250 -100 50 H V L CNN
 F2 "Package_QFP:LQFP-44_10x10mm_P0.8mm" -3050 950 50 H I L CNN
 F3 "" -4250 200 50 H I L CNN
 F4 "I/O Controller Interface IC 10MHz CMOS SIO/3 XT" -3050 650 50 H I L CNN "Description"
