@@ -1,0 +1,8 @@
+**/*db/
+**/output_files/
+**/simulation/
+*.bak
+*.txt
+*.cmp
+*.qws
+*.log
