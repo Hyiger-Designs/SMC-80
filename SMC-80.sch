@@ -474,13 +474,13 @@ Wire Wire Line
 Wire Wire Line
 	4250 2600 3850 2600
 $Comp
-L power:GND #PWR03
+L power:GND #PWR05
 U 1 1 616B6DD8
 P 2400 2650
-AR Path="/616B6DD8" Ref="#PWR03"  Part="1" 
+AR Path="/616B6DD8" Ref="#PWR05"  Part="1" 
 AR Path="/5CB63856/616B6DD8" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/616B6DD8" Ref="#PWR?"  Part="1" 
-F 0 "#PWR03" H 2400 2400 50  0001 C CNN
+F 0 "#PWR05" H 2400 2400 50  0001 C CNN
 F 1 "GND" H 2405 2477 50  0000 C CNN
 F 2 "" H 2400 2650 50  0001 C CNN
 F 3 "" H 2400 2650 50  0001 C CNN
@@ -808,10 +808,10 @@ Wire Wire Line
 Wire Wire Line
 	5850 4100 5850 4200
 $Comp
-L power:VCC #PWR04
+L power:VCC #PWR07
 U 1 1 5E47A107
 P 5850 4100
-F 0 "#PWR04" H 5850 3950 50  0001 C CNN
+F 0 "#PWR07" H 5850 3950 50  0001 C CNN
 F 1 "VCC" H 5867 4273 50  0000 C CNN
 F 2 "" H 5850 4100 50  0001 C CNN
 F 3 "" H 5850 4100 50  0001 C CNN
@@ -960,13 +960,13 @@ Wire Wire Line
 Connection ~ 2150 6350
 Connection ~ 1550 6750
 $Comp
-L SMC-80:DS1813R-5+T&R U14
+L SMC-80:DS1813R-5+T&R U1
 U 1 1 5EFC5345
 P 1650 6350
-AR Path="/5EFC5345" Ref="U14"  Part="1" 
+AR Path="/5EFC5345" Ref="U1"  Part="1" 
 AR Path="/5D6224DC/5EFC5345" Ref="U?"  Part="1" 
 AR Path="/5F7E53CF/5EFC5345" Ref="U?"  Part="1" 
-F 0 "U14" H 1420 6396 50  0000 R CNN
+F 0 "U1" H 1420 6396 50  0000 R CNN
 F 1 "DS1813R-5+T&R" H 2300 6700 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 1250 6500 50  0001 C CNN
 F 3 "https://www.mouser.com/datasheet/2/256/maxim%20integrated%20products_ds1813-1178753.pdf" H 1350 6600 50  0001 C CNN
@@ -974,13 +974,13 @@ F 3 "https://www.mouser.com/datasheet/2/256/maxim%20integrated%20products_ds1813
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW3
+L Switch:SW_Push SW1
 U 1 1 5EFC534B
 P 2150 6550
-AR Path="/5EFC534B" Ref="SW3"  Part="1" 
+AR Path="/5EFC534B" Ref="SW1"  Part="1" 
 AR Path="/5D6224DC/5EFC534B" Ref="SW?"  Part="1" 
 AR Path="/5F7E53CF/5EFC534B" Ref="SW?"  Part="1" 
-F 0 "SW3" V 2104 6698 50  0000 L CNN
+F 0 "SW1" V 2104 6698 50  0000 L CNN
 F 1 "Reset" V 2195 6698 50  0000 L CNN
 F 2 "Button_Switch_SMD:SW_SPST_FSMSM" H 2150 6750 50  0001 C CNN
 F 3 "~" H 2150 6750 50  0001 C CNN
@@ -990,17 +990,17 @@ $EndComp
 Wire Wire Line
 	2150 6350 2600 6350
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR04
 U 1 1 5EFC5352
 P 1550 6850
-AR Path="/5EFC5352" Ref="#PWR0101"  Part="1" 
+AR Path="/5EFC5352" Ref="#PWR04"  Part="1" 
 AR Path="/5CB63856/5EFC5352" Ref="#PWR?"  Part="1" 
 AR Path="/5CB5AB00/5CB63856/5EFC5352" Ref="#PWR?"  Part="1" 
 AR Path="/5CFABACD/5EFC5352" Ref="#PWR?"  Part="1" 
 AR Path="/5CF9C1ED/5EFC5352" Ref="#PWR?"  Part="1" 
 AR Path="/5D6224DC/5EFC5352" Ref="#PWR?"  Part="1" 
 AR Path="/5F7E53CF/5EFC5352" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0101" H 1550 6600 50  0001 C CNN
+F 0 "#PWR04" H 1550 6600 50  0001 C CNN
 F 1 "GND" H 1554 6708 50  0000 C CNN
 F 2 "" H 1550 6850 50  0001 C CNN
 F 3 "" H 1550 6850 50  0001 C CNN
@@ -1010,12 +1010,12 @@ $EndComp
 Wire Wire Line
 	1550 6750 1550 6850
 $Comp
-L power:VCC #PWR0102
+L power:VCC #PWR03
 U 1 1 5EFC5359
 P 1550 5950
-AR Path="/5EFC5359" Ref="#PWR0102"  Part="1" 
+AR Path="/5EFC5359" Ref="#PWR03"  Part="1" 
 AR Path="/5F7E53CF/5EFC5359" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0102" H 1550 5800 50  0001 C CNN
+F 0 "#PWR03" H 1550 5800 50  0001 C CNN
 F 1 "VCC" H 1567 6123 50  0000 C CNN
 F 2 "" H 1550 5950 50  0001 C CNN
 F 3 "" H 1550 5950 50  0001 C CNN
@@ -1023,12 +1023,12 @@ F 3 "" H 1550 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Bridged12 JP5
+L Jumper:Jumper_3_Bridged12 JP1
 U 1 1 5EFC535F
 P 2850 6350
-AR Path="/5EFC535F" Ref="JP5"  Part="1" 
+AR Path="/5EFC535F" Ref="JP1"  Part="1" 
 AR Path="/5F7E53CF/5EFC535F" Ref="JP?"  Part="1" 
-F 0 "JP5" H 2850 6554 50  0000 C CNN
+F 0 "JP1" H 2850 6554 50  0000 C CNN
 F 1 "Reset Ena" H 2850 6463 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2850 6350 50  0001 C CNN
 F 3 "~" H 2850 6350 50  0001 C CNN
@@ -1042,13 +1042,13 @@ Wire Wire Line
 Wire Wire Line
 	3100 6350 3550 6350
 $Comp
-L Device:R_Small R21
+L Device:R_Small R1
 U 1 1 5EFC5368
 P 3550 6150
-AR Path="/5EFC5368" Ref="R21"  Part="1" 
+AR Path="/5EFC5368" Ref="R1"  Part="1" 
 AR Path="/5D6224DC/5EFC5368" Ref="R?"  Part="1" 
 AR Path="/5F7E53CF/5EFC5368" Ref="R?"  Part="1" 
-F 0 "R21" V 3475 6075 50  0000 L CNN
+F 0 "R1" V 3475 6075 50  0000 L CNN
 F 1 "10K" V 3550 6100 32  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 6150 50  0001 C CNN
 F 3 "~" H 3550 6150 50  0001 C CNN
@@ -1056,12 +1056,12 @@ F 3 "~" H 3550 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0103
+L power:VCC #PWR06
 U 1 1 5EFC536E
 P 3550 6050
-AR Path="/5EFC536E" Ref="#PWR0103"  Part="1" 
+AR Path="/5EFC536E" Ref="#PWR06"  Part="1" 
 AR Path="/5F7E53CF/5EFC536E" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0103" H 3550 5900 50  0001 C CNN
+F 0 "#PWR06" H 3550 5900 50  0001 C CNN
 F 1 "VCC" H 3567 6223 50  0000 C CNN
 F 2 "" H 3550 6050 50  0001 C CNN
 F 3 "" H 3550 6050 50  0001 C CNN
