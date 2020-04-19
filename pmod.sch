@@ -14,80 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5DC93B46
-P 3850 1900
-AR Path="/5D70CA34/5DC93B46" Ref="#PWR?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DC93B46" Ref="#PWR035"  Part="1" 
-F 0 "#PWR035" H 3850 1750 50  0001 C CNN
-F 1 "+3V3" H 3865 2073 50  0000 C CNN
-F 2 "" H 3850 1900 50  0001 C CNN
-F 3 "" H 3850 1900 50  0001 C CNN
-	1    3850 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2425 1900 2250 1900
-Connection ~ 2425 1900
-Wire Wire Line
-	2425 1950 2425 1900
-Wire Wire Line
-	2650 1900 2550 1900
-$Comp
-L power:GND #PWR?
-U 1 1 5DC93B5A
-P 2425 2200
-AR Path="/5D70CA34/5DC93B5A" Ref="#PWR?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DC93B5A" Ref="#PWR027"  Part="1" 
-F 0 "#PWR027" H 2425 1950 50  0001 C CNN
-F 1 "GND" H 2430 2027 50  0000 C CNN
-F 2 "" H 2425 2200 50  0001 C CNN
-F 3 "" H 2425 2200 50  0001 C CNN
-	1    2425 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2425 2150 2425 2200
-$Comp
-L Device:C_Small C?
-U 1 1 5DC93B61
-P 2425 2050
-AR Path="/5D70CA34/5DC93B61" Ref="C?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DC93B61" Ref="C13"  Part="1" 
-F 0 "C13" H 2150 2100 50  0000 L CNN
-F 1 "1uF" H 2150 2000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2425 2050 50  0001 C CNN
-F 3 "~" H 2425 2050 50  0001 C CNN
-	1    2425 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5DC93B67
-P 3050 2300
-AR Path="/5D70CA34/5DC93B67" Ref="#PWR?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DC93B67" Ref="#PWR031"  Part="1" 
-F 0 "#PWR031" H 3050 2050 50  0001 C CNN
-F 1 "GND" H 3055 2127 50  0000 C CNN
-F 2 "" H 3050 2300 50  0001 C CNN
-F 3 "" H 3050 2300 50  0001 C CNN
-	1    3050 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5DC93B6E
-P 3450 2100
-AR Path="/5D70CA34/5DC93B6E" Ref="C?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DC93B6E" Ref="C15"  Part="1" 
-F 0 "C15" H 3542 2146 50  0000 L CNN
-F 1 "10nF" H 3542 2055 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3450 2100 50  0001 C CNN
-F 3 "~" H 3450 2100 50  0001 C CNN
-	1    3450 2100
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5DC93B86
 P 2775 4200
@@ -470,19 +396,6 @@ Wire Wire Line
 	6750 2650 7050 2650
 $Comp
 L power:VCC #PWR?
-U 1 1 5DDDFEC8
-P 2250 1900
-AR Path="/5DDDFEC8" Ref="#PWR?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DDDFEC8" Ref="#PWR026"  Part="1" 
-F 0 "#PWR026" H 2250 1750 50  0001 C CNN
-F 1 "VCC" H 2267 2073 50  0000 C CNN
-F 2 "" H 2250 1900 50  0001 C CNN
-F 3 "" H 2250 1900 50  0001 C CNN
-	1    2250 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR?
 U 1 1 5DDE294C
 P 7550 2650
 AR Path="/5DDE294C" Ref="#PWR?"  Part="1" 
@@ -494,62 +407,6 @@ F 3 "" H 7550 2650 50  0001 C CNN
 	1    7550 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:LP2985-3.3 U4
-U 1 1 5DA3D2AC
-P 3050 2000
-F 0 "U4" H 3050 2342 50  0000 C CNN
-F 1 "LP2985-3.3" H 3050 2251 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3050 2325 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lp2985.pdf" H 3050 2000 50  0001 C CNN
-	1    3050 2000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 2000 2550 2000
-Wire Wire Line
-	2550 2000 2550 1900
-Connection ~ 2550 1900
-Wire Wire Line
-	2550 1900 2425 1900
-Wire Wire Line
-	3450 1900 3850 1900
-Wire Wire Line
-	3050 2300 3450 2300
-Wire Wire Line
-	3450 2300 3450 2200
-Connection ~ 3050 2300
-$Comp
-L power:GND #PWR?
-U 1 1 5DA600E4
-P 3850 2200
-AR Path="/5D70CA34/5DA600E4" Ref="#PWR?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DA600E4" Ref="#PWR036"  Part="1" 
-F 0 "#PWR036" H 3850 1950 50  0001 C CNN
-F 1 "GND" H 3855 2027 50  0000 C CNN
-F 2 "" H 3850 2200 50  0001 C CNN
-F 3 "" H 3850 2200 50  0001 C CNN
-	1    3850 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 2150 3850 2200
-$Comp
-L Device:C_Small C?
-U 1 1 5DA600EB
-P 3850 2050
-AR Path="/5D70CA34/5DA600EB" Ref="C?"  Part="1" 
-AR Path="/5D70CA34/5DC790D1/5DA600EB" Ref="C17"  Part="1" 
-F 0 "C17" H 3950 2125 50  0000 L CNN
-F 1 "1uF" H 3950 2050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3850 2050 50  0001 C CNN
-F 3 "~" H 3850 2050 50  0001 C CNN
-	1    3850 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 1950 3850 1900
-Connection ~ 3850 1900
 Wire Wire Line
 	3375 3700 4075 3700
 Wire Wire Line

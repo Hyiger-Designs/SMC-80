@@ -27,3 +27,5 @@ fp-info-cache
 # Gerbers
 gerbers/*
 *.zip
+
+.DS_Store
